@@ -1,0 +1,21 @@
+<view class="container">
+  <!-- Input Section -->
+  <view class="section">
+    <view class="custom-header">Enter City Name</view>
+    <view class="input-wrapper">
+      <input class="input" placeholder="e.g. London" value="{{city}}" onInput="onInput" />
+    </view>
+    <view class="button-row">
+      <button type="primary" size="small" onTap="getWeather">Get Weather</button>
+      <button type="primary" size="small" onTap="LoadAbout">About</button>
+    </view>
+  </view>
+
+  <!-- Weather Info Section -->
+  <view class="section" a:if="{{isReportAvailable}}">
+    <view class="custom-header">Weather Info</view>
+    <view class="info-item"><text class="label">City:</text> {{cityName}}</view>
+    <view class="info-item"><text class="label">Temperature:</text> {{main.temp}}°C</view>
+    <view class="info-item"><text class="label">Condition:</text> {{weather[0].description}}</view>
+  </view>
+</view>
