@@ -1,0 +1,8 @@
+<view class="about-container">
+  <view class="about-box">
+    <view class="about-title">About This App</view>
+    <view class="about-text">
+      This mini app allows you to get current weather data by entering a city name.
+    </view>
+  </view>
+</view>

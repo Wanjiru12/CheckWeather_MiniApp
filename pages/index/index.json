@@ -1,0 +1,13 @@
+{
+  "usingComponents": {
+    "antd-list": "antd-mini/es/List/index",
+    "antd-list-item": "antd-mini/es/List/ListItem/index",
+    "antd-input": "antd-mini/es/Input/index",
+    "antd-button": "antd-mini/es/Button/index",
+    "antd-container": "antd-mini/es/Container/index",
+    "antd-divider": "antd-mini/es/Divider/index",
+    "ant-grid": "antd-mini/es/Grid/index",
+    "ant-space": "antd-mini/es/Space/index"
+  }
+}
+
